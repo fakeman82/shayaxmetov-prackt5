@@ -1,0 +1,103 @@
+ /* КАРТОЧКИ ТРЕНЕРОВ */
+ .cards{
+            display: flex;
+            justify-content: space-between;
+            flex: wrap;
+        }
+
+        .card{
+            width: 20%;
+            max-height: 40vh;
+        }
+        .card img{
+            width: 100%;
+            height: 90%;
+
+        }
+
+/* ФОРМЫ */
+
+
+
+.form{
+    width: 30%;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ig-radio{
+    flex-direction: row;
+}
+
+
+.input-group>*{
+    margin: 5px;
+}
+
+
+
+/* ОБЩИЕ НАСТРОЙКИ */
+
+
+.container{
+    width: 90%;
+    margin: 30px auto;
+
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-column-center{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* СПИСОК ТРЕНЕРОВ */
+
+.trener-list{
+    width: 30%;
+}
+
+.form-edit{
+    width: 70%;
+}
+
+.trener-item{
+    align-items: center;
+}
+
+
+.trener-item>*{
+    margin: 5px;
+    font-size: 20px;
+
+}
+
+.btn{
+    background: transparent;
+    padding: 3px;
+}
+
+.btn-edit{
+    border: 1px solid orange;
+    color: orange;
+}
+
+
+.btn-delete{
+    border: 1px solid red;
+    color: red;
+}
+
+
+.form-edit .container{
+    margin-top: 0;
+}
